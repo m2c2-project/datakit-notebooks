@@ -62,9 +62,8 @@ To learn more, visit the full [package documentation](https://m2c2-project.githu
 datakit-notebooks/
 │
 ├── notebooks/
-│   ├── 01-loading-data.ipynb
-│   ├── 02-cleaning-data.ipynb
-│   ├── 03-visualizations.ipynb
+│   ├── lassie.ipynb
+│   ├── before-lassie.ipynb #(for when you need a throwback!)
 │   └── ...
 │
 ├── data/               # Sample datasets (if applicable)

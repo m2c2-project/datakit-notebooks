@@ -1,0 +1,10 @@
+name: m2c2-datakit
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10  # or your preferred version
+  - pandas
+  - python-dotenv
+  - pip
+  - pip:
+      - m2c2_datakit
