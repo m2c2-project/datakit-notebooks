@@ -1,3 +1,4 @@
 pandas
 python-dotenv
 m2c2_datakit
+ipykernel

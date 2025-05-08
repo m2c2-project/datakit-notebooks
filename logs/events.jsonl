@@ -1,0 +1,39 @@
+{"timestamp": "2025-05-08T21:41:49.804253", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "../datakit/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:41:49.805239", "level": "info", "message": "Found MetricWire JSON files", "count": 0}
+{"timestamp": "2025-05-08T21:42:29.669798", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "../../datakit/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:42:29.675883", "level": "info", "message": "Found MetricWire JSON files", "count": 0}
+{"timestamp": "2025-05-08T21:42:57.687149", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "../../datakit/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:42:57.690899", "level": "info", "message": "Found MetricWire JSON files", "count": 0}
+{"timestamp": "2025-05-08T21:43:01.078708", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-08T21:43:15.978933", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "../../datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:43:15.986528", "level": "info", "message": "Found MetricWire JSON files", "count": 0}
+{"timestamp": "2025-05-08T21:43:27.842073", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "../../datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:43:27.847451", "level": "info", "message": "Found MetricWire JSON files", "count": 0}
+{"timestamp": "2025-05-08T21:43:34.998996", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-08T21:48:30.858137", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:48:30.867589", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-08T21:48:30.912651", "level": "info", "message": "[L] Loaded metricwire data at 20250508_174830", "session_timestamp": "20250508_174830"}
+{"timestamp": "2025-05-08T21:48:30.917593", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250508_174830"}
+{"timestamp": "2025-05-08T21:48:30.934394", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250508_174830"}
+{"timestamp": "2025-05-08T21:50:55.603969", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:50:55.613099", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-08T21:50:55.624638", "level": "info", "message": "[L] Loaded metricwire data at 20250508_175055", "session_timestamp": "20250508_175055"}
+{"timestamp": "2025-05-08T21:50:55.630401", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250508_175055"}
+{"timestamp": "2025-05-08T21:50:55.642016", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250508_175055"}
+{"timestamp": "2025-05-08T21:50:59.604068", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-08T21:50:59.611563", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-08T21:50:59.619349", "level": "info", "message": "[L] Loaded metricwire data at 20250508_175059", "session_timestamp": "20250508_175059"}
+{"timestamp": "2025-05-08T21:50:59.624199", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250508_175059"}
+{"timestamp": "2025-05-08T21:50:59.639595", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250508_175059"}
+{"timestamp": "2025-05-08T21:51:13.183391", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-08T21:51:14.371917", "level": "info", "message": "[L] Loaded mongodb data at 20250508_175114", "session_timestamp": "20250508_175114"}
+{"timestamp": "2025-05-08T21:51:14.380128", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250508_175114"}
+{"timestamp": "2025-05-08T21:51:14.395045", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250508_175114"}
+{"timestamp": "2025-05-08T21:52:03.982869", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-08T21:52:04.006568", "level": "info", "message": "[L] Loaded qualtrics data at 20250508_175204", "session_timestamp": "20250508_175204"}
+{"timestamp": "2025-05-08T21:52:04.012711", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250508_175204"}
+{"timestamp": "2025-05-08T21:52:04.023507", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250508_175204"}
+{"timestamp": "2025-05-08T21:52:12.988905", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-08T21:52:13.010716", "level": "info", "message": "[L] Loaded qualtrics data at 20250508_175213", "session_timestamp": "20250508_175213"}
+{"timestamp": "2025-05-08T21:52:13.018585", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250508_175213"}
+{"timestamp": "2025-05-08T21:52:13.028099", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250508_175213"}
