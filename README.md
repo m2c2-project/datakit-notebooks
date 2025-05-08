@@ -87,6 +87,14 @@ cd datakit-notebooks
 pip install -r requirements.txt
 ```
 
+Like this... ([see more about UV here](https://docs.astral.sh/uv/))
+```bash
+python -m venv .venv
+source .venv/bin/activate  # or `.venv\Scripts\activate` on Windows
+uv pip install -r requirements.txt
+
+```
+
 ### Launch the notebooks
 
 ```bash
