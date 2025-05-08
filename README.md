@@ -34,10 +34,11 @@ The notebooks cover workflows such as:
 
 | Source Type   | Loader Class          | Key Arguments                            | Notes                                 |
 |---------------|------------------------|-------------------------------------------|----------------------------------------|
-| `mongodb`     | `MongoDBImporter`      | `source_path` (JSON)                      | Expects flat or nested JSON documents. |
-| `uas`         | `UASImporter`          | `source_path` (URL)                       | Parses newline-delimited JSON.         |
+| `mongodb`     | `MongoDBImporter`      | `source_path` (URL, to JSON)                      | Expects flat or nested JSON documents. |
+| `uas`         | `UASImporter`          | `source_path` (URL, to pseudo-JSON)                       | Parses newline-delimited JSON.         |
 | `metricwire`  | `MetricWireImporter`   | `source_path` (glob pattern or default)   | Processes JSON files from unzipped export. |
 | `multicsv`    | `MultiCSVImporter`     | `source_map` (dict of CSV paths)          | Each activity type is its own file.    |
+| `qualtrics`    | `QualtricsImporter`     | `source_path` (URL to CSV)         | Each activity's trial saves data to a new column.    |
 
 
 ---
