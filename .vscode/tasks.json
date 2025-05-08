@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+      {
+        "label": "Clone repo",
+        "type": "shell",
+        "command": "git clone https://github.com/m2c2-project/datakit-notebooks.git",
+        "problemMatcher": []
+      },
+      {
+        "label": "Install dependencies with uv",
+        "type": "shell",
+        "command": "uv pip install -r requirements.txt",
+        "options": {
+          "cwd": "${workspaceFolder}/datakit-notebooks"
+        },
+        "problemMatcher": []
+      },
+      {
+        "label": "Launch Jupyter Lab",
+        "type": "shell",
+        "command": "jupyter lab",
+        "options": {
+          "cwd": "${workspaceFolder}/datakit-notebooks"
+        },
+        "problemMatcher": []
+      }
+    ]
+  }
+  

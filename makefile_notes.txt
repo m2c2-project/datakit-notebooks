@@ -1,0 +1,28 @@
+✅ Options to Run Makefiles on Windows
+1. Git Bash (Recommended for Simplicity)
+Installed with Git for Windows.
+
+Lets you run make if you also install make via:
+
+GnuWin
+
+Or by installing Make via choco install make if you use Chocolatey
+
+bash
+make  # run from Git Bash
+
+2. Windows Subsystem for Linux (WSL)
+Full Linux environment on Windows.
+
+You can run make like on any Linux system.
+
+Install via PowerShell:
+
+powershell
+wsl --install
+
+Then from the WSL terminal:
+
+bash
+sudo apt update && sudo apt install make
+make
