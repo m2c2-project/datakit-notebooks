@@ -7,6 +7,12 @@ PYTHON_PATH := /opt/homebrew/bin/python3.10
 VENV_DIR := .venv
 VENV_PYTHON := $(VENV_DIR)/bin/python
 
+pymc:
+	uv pip uninstall numpy pymc pytensor -y || true
+	uv pip install numpy --no-binary=:all:
+	uv pip install pytensor
+	uv pip install pymc
+
 # Clean build artifacts
 clean:
 	rm -rf dist build *.egg-info $(VENV_DIR)
