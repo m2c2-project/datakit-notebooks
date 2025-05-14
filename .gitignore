@@ -1,3 +1,4 @@
 .env
 /tidy
 .DS_Store
+logs/events.jsonl
