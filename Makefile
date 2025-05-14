@@ -9,10 +9,9 @@ VENV_PYTHON := $(VENV_DIR)/bin/python
 
 # Clean build artifacts
 clean:
-	rm -rf dist build *.egg-info
+	rm -rf dist build *.egg-info $(VENV_DIR)
 
-env:
-	rm -rf $(VENV_DIR)
+env: clean
 	uv venv $(VENV_DIR) --python=$(PYTHON_PATH)
 
 dev-install: env
