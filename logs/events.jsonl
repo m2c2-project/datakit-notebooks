@@ -172,3 +172,106 @@
 {"timestamp": "2025-05-14T21:01:38.930727", "level": "error", "message": "Summarization by activity failed", "exception": "summarize() got an unexpected keyword argument 'activity_col'", "traceback": "Traceback (most recent call last):\n  File \"/Users/nur375/Documents/GitHub/datakit-notebooks/.venv/lib/python3.10/site-packages/m2c2_datakit/core/pipeline.py\", line 144, in summarize\n    self.grouped_summary = summarize_by_group_key(\n  File \"/Users/nur375/Documents/GitHub/datakit-notebooks/.venv/lib/python3.10/site-packages/m2c2_datakit/core/helpers.py\", line 403, in summarize_by_group_key\n    summary_df = summary_func(df, **kwargs)\nTypeError: summarize() got an unexpected keyword argument 'activity_col'\n", "session_timestamp": "20250514_170049", "activities": ["Grid Memory", "Symbol Search"]}
 {"timestamp": "2025-05-14T21:01:42.575355", "level": "error", "message": "Summarization by activity failed", "exception": "summarize() got an unexpected keyword argument 'activity_col'", "traceback": "Traceback (most recent call last):\n  File \"/Users/nur375/Documents/GitHub/datakit-notebooks/.venv/lib/python3.10/site-packages/m2c2_datakit/core/pipeline.py\", line 144, in summarize\n    self.grouped_summary = summarize_by_group_key(\n  File \"/Users/nur375/Documents/GitHub/datakit-notebooks/.venv/lib/python3.10/site-packages/m2c2_datakit/core/helpers.py\", line 403, in summarize_by_group_key\n    summary_df = summary_func(df, **kwargs)\nTypeError: summarize() got an unexpected keyword argument 'activity_col'\n", "session_timestamp": "20250514_170049", "activities": ["Grid Memory", "Symbol Search"]}
 {"timestamp": "2025-05-14T21:01:49.094778", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_170049"}
+{"timestamp": "2025-05-14T22:21:45.032227", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-14T22:21:45.036872", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-14T22:21:45.075285", "level": "info", "message": "[L] Loaded metricwire data at 20250514_182145", "session_timestamp": "20250514_182145"}
+{"timestamp": "2025-05-14T22:21:45.082377", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-14T22:21:46.478112", "level": "info", "message": "[L] Loaded mongodb data at 20250514_182146", "session_timestamp": "20250514_182146"}
+{"timestamp": "2025-05-14T22:21:48.066198", "level": "info", "message": "[L] Loaded multicsv data at 20250514_182148", "session_timestamp": "20250514_182148"}
+{"timestamp": "2025-05-14T22:21:48.072223", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-14T22:21:48.090525", "level": "info", "message": "[L] Loaded qualtrics data at 20250514_182148", "session_timestamp": "20250514_182148"}
+{"timestamp": "2025-05-14T22:21:49.511608", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182146"}
+{"timestamp": "2025-05-14T22:21:49.520779", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182148"}
+{"timestamp": "2025-05-14T22:21:49.528861", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182145"}
+{"timestamp": "2025-05-14T22:21:49.535699", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182148"}
+{"timestamp": "2025-05-14T22:21:51.702497", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182146"}
+{"timestamp": "2025-05-14T22:22:06.137629", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182148"}
+{"timestamp": "2025-05-14T22:22:06.153359", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182145"}
+{"timestamp": "2025-05-14T22:22:06.162742", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182148"}
+{"timestamp": "2025-05-14T22:22:17.069311", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_182146"}
+{"timestamp": "2025-05-14T22:24:52.839210", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-14T22:24:52.845631", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-14T22:24:52.852670", "level": "info", "message": "[L] Loaded metricwire data at 20250514_182452", "session_timestamp": "20250514_182452"}
+{"timestamp": "2025-05-14T22:24:52.856794", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-14T22:24:54.210189", "level": "info", "message": "[L] Loaded mongodb data at 20250514_182454", "session_timestamp": "20250514_182454"}
+{"timestamp": "2025-05-14T22:24:55.826473", "level": "info", "message": "[L] Loaded multicsv data at 20250514_182455", "session_timestamp": "20250514_182455"}
+{"timestamp": "2025-05-14T22:24:55.886930", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-14T22:24:55.903247", "level": "info", "message": "[L] Loaded qualtrics data at 20250514_182455", "session_timestamp": "20250514_182455"}
+{"timestamp": "2025-05-14T22:24:56.840874", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182454"}
+{"timestamp": "2025-05-14T22:24:56.849233", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182455"}
+{"timestamp": "2025-05-14T22:24:56.855985", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182452"}
+{"timestamp": "2025-05-14T22:24:56.861579", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_182455"}
+{"timestamp": "2025-05-14T22:24:59.197826", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182454"}
+{"timestamp": "2025-05-14T22:25:13.860647", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182455"}
+{"timestamp": "2025-05-14T22:25:13.875882", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182452"}
+{"timestamp": "2025-05-14T22:25:13.885788", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_182455"}
+{"timestamp": "2025-05-14T22:25:20.529605", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_182454"}
+{"timestamp": "2025-05-14T22:33:54.044230", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-14T22:33:54.052899", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-14T22:33:54.061956", "level": "info", "message": "[L] Loaded metricwire data at 20250514_183354", "session_timestamp": "20250514_183354"}
+{"timestamp": "2025-05-14T22:33:54.066699", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-14T22:33:55.351912", "level": "info", "message": "[L] Loaded mongodb data at 20250514_183355", "session_timestamp": "20250514_183355"}
+{"timestamp": "2025-05-14T22:33:56.907609", "level": "info", "message": "[L] Loaded multicsv data at 20250514_183356", "session_timestamp": "20250514_183356"}
+{"timestamp": "2025-05-14T22:33:56.914230", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-14T22:33:56.930446", "level": "info", "message": "[L] Loaded qualtrics data at 20250514_183356", "session_timestamp": "20250514_183356"}
+{"timestamp": "2025-05-14T22:33:56.940911", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_183355"}
+{"timestamp": "2025-05-14T22:33:56.949851", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_183356"}
+{"timestamp": "2025-05-14T22:33:56.955579", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_183354"}
+{"timestamp": "2025-05-14T22:33:56.961086", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_183356"}
+{"timestamp": "2025-05-14T22:33:58.074588", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_183355"}
+{"timestamp": "2025-05-14T22:34:12.544191", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_183356"}
+{"timestamp": "2025-05-14T22:34:12.559601", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_183354"}
+{"timestamp": "2025-05-14T22:34:12.570303", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_183356"}
+{"timestamp": "2025-05-14T22:34:12.590819", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_183355"}
+{"timestamp": "2025-05-14T22:40:51.567072", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-14T22:40:51.575832", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-14T22:40:51.610722", "level": "info", "message": "[L] Loaded metricwire data at 20250514_184051", "session_timestamp": "20250514_184051"}
+{"timestamp": "2025-05-14T22:40:51.615084", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-14T22:40:52.936518", "level": "info", "message": "[L] Loaded mongodb data at 20250514_184052", "session_timestamp": "20250514_184052"}
+{"timestamp": "2025-05-14T22:40:54.438748", "level": "info", "message": "[L] Loaded multicsv data at 20250514_184054", "session_timestamp": "20250514_184054"}
+{"timestamp": "2025-05-14T22:40:54.445974", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-14T22:40:54.467837", "level": "info", "message": "[L] Loaded qualtrics data at 20250514_184054", "session_timestamp": "20250514_184054"}
+{"timestamp": "2025-05-14T22:40:57.520885", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184052"}
+{"timestamp": "2025-05-14T22:40:57.529006", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184054"}
+{"timestamp": "2025-05-14T22:40:57.535721", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184051"}
+{"timestamp": "2025-05-14T22:40:57.541192", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184054"}
+{"timestamp": "2025-05-14T22:40:59.703780", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184052"}
+{"timestamp": "2025-05-14T22:41:14.000292", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184054"}
+{"timestamp": "2025-05-14T22:41:14.015343", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184051"}
+{"timestamp": "2025-05-14T22:41:14.026050", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184054"}
+{"timestamp": "2025-05-14T22:41:14.054229", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_184052"}
+{"timestamp": "2025-05-14T22:44:38.357441", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-14T22:44:38.368609", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-14T22:44:38.378080", "level": "info", "message": "[L] Loaded metricwire data at 20250514_184438", "session_timestamp": "20250514_184438"}
+{"timestamp": "2025-05-14T22:44:38.383465", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-14T22:44:39.686523", "level": "info", "message": "[L] Loaded mongodb data at 20250514_184439", "session_timestamp": "20250514_184439"}
+{"timestamp": "2025-05-14T22:44:41.231611", "level": "info", "message": "[L] Loaded multicsv data at 20250514_184441", "session_timestamp": "20250514_184441"}
+{"timestamp": "2025-05-14T22:44:41.238188", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-14T22:44:41.253575", "level": "info", "message": "[L] Loaded qualtrics data at 20250514_184441", "session_timestamp": "20250514_184441"}
+{"timestamp": "2025-05-14T22:44:41.264759", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184439"}
+{"timestamp": "2025-05-14T22:44:41.271195", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184441"}
+{"timestamp": "2025-05-14T22:44:41.277733", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184438"}
+{"timestamp": "2025-05-14T22:44:41.283531", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184441"}
+{"timestamp": "2025-05-14T22:44:42.243836", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184439"}
+{"timestamp": "2025-05-14T22:44:56.751948", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184441"}
+{"timestamp": "2025-05-14T22:44:56.768121", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184438"}
+{"timestamp": "2025-05-14T22:44:56.779355", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184441"}
+{"timestamp": "2025-05-14T22:45:05.679579", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_184439"}
+{"timestamp": "2025-05-14T22:48:16.583426", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-05-14T22:48:16.590623", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-05-14T22:48:16.600592", "level": "info", "message": "[L] Loaded metricwire data at 20250514_184816", "session_timestamp": "20250514_184816"}
+{"timestamp": "2025-05-14T22:48:16.607084", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-05-14T22:48:17.933717", "level": "info", "message": "[L] Loaded mongodb data at 20250514_184817", "session_timestamp": "20250514_184817"}
+{"timestamp": "2025-05-14T22:48:19.422076", "level": "info", "message": "[L] Loaded multicsv data at 20250514_184819", "session_timestamp": "20250514_184819"}
+{"timestamp": "2025-05-14T22:48:19.428032", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/Qualtrics+QSF+M2C2Kit+-+Grid+Memory+&+Color+Shapes_April+17,+2025_18.05.csv"}
+{"timestamp": "2025-05-14T22:48:19.442430", "level": "info", "message": "[L] Loaded qualtrics data at 20250514_184819", "session_timestamp": "20250514_184819"}
+{"timestamp": "2025-05-14T22:48:19.452410", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184817"}
+{"timestamp": "2025-05-14T22:48:19.457514", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184819"}
+{"timestamp": "2025-05-14T22:48:19.462731", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184816"}
+{"timestamp": "2025-05-14T22:48:19.467601", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250514_184819"}
+{"timestamp": "2025-05-14T22:48:21.916507", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184817"}
+{"timestamp": "2025-05-14T22:48:36.397178", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184819"}
+{"timestamp": "2025-05-14T22:48:36.409833", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184816"}
+{"timestamp": "2025-05-14T22:48:36.419831", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250514_184819"}
+{"timestamp": "2025-05-14T22:49:31.020596", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_184817"}
+{"timestamp": "2025-05-14T22:49:54.018865", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250514_184819"}

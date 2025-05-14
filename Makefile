@@ -15,7 +15,7 @@ env: clean
 	uv venv $(VENV_DIR) --python=$(PYTHON_PATH)
 
 dev-install: env
-	uv pip install --python=$(VENV_PYTHON) -r requirements.txt
+	uv pip install --python=$(VENV_PYTHON) -r requirements.txt --no-cache-dir m2c2_datakit
 
 
 # Register virtualenv with Jupyter as a named kernel
