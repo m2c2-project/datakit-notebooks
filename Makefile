@@ -7,11 +7,11 @@ PYTHON_PATH := /opt/homebrew/bin/python3.10
 VENV_DIR := .venv
 VENV_PYTHON := $(VENV_DIR)/bin/python
 
-pymc:
-	uv pip uninstall numpy pymc pytensor -y || true
-	uv pip install numpy --no-binary=:all:
-	uv pip install pytensor
-	uv pip install pymc
+c:
+	/opt/homebrew/bin/python3.10 -m pip freeze | xargs -n1 /opt/homebrew/bin/python3.10 -m pip uninstall -y
+	/opt/homebrew/bin/python3.12 -m pip freeze | xargs -n1 /opt/homebrew/bin/python3.12 -m pip uninstall -y
+	/opt/homebrew/bin/python3.13 -m pip freeze | xargs -n1 /opt/homebrew/bin/python3.13 -m pip uninstall -y
+
 
 # Clean build artifacts
 clean:

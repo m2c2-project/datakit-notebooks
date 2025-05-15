@@ -3,5 +3,3 @@ python-dotenv
 m2c2_datakit
 ipykernel
 m2c2_datakit
-pymc 
-arviz
