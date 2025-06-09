@@ -2,3 +2,4 @@
 /tidy
 .DS_Store
 logs/events.jsonl
+/data
