@@ -462,3 +462,24 @@
 {"timestamp": "2025-06-04T19:46:41.654977", "level": "info", "message": "[L] Loaded multicsv data at 20250604_154641", "session_timestamp": "20250604_154641"}
 {"timestamp": "2025-06-04T19:46:41.664309", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/M2C2 2 Task_May 2, 2025_10.37.csv"}
 {"timestamp": "2025-06-04T19:46:41.689558", "level": "info", "message": "[L] Loaded qualtrics data at 20250604_154641", "session_timestamp": "20250604_154641"}
+{"timestamp": "2025-06-09T17:54:20.235942", "level": "info", "message": "Initializing data load", "source": "metricwire", "path": "/Users/nur375/Documents/GitHub/datakit/data/metricwire/unzipped/*/*/*.json"}
+{"timestamp": "2025-06-09T17:54:20.242160", "level": "info", "message": "Found MetricWire JSON files", "count": 6}
+{"timestamp": "2025-06-09T17:54:20.303401", "level": "info", "message": "[L] Loaded metricwire data at 20250609_135420", "session_timestamp": "20250609_135420"}
+{"timestamp": "2025-06-09T17:54:20.311384", "level": "info", "message": "Initializing data load", "source": "mongodb", "path": "/Users/nur375/Documents/GitHub/datakit/data/production-mongo-export/data_exported_120424_1010am.json"}
+{"timestamp": "2025-06-09T17:54:21.801839", "level": "info", "message": "[L] Loaded mongodb data at 20250609_135421", "session_timestamp": "20250609_135421"}
+{"timestamp": "2025-06-09T17:54:23.497029", "level": "info", "message": "[L] Loaded multicsv data at 20250609_135423", "session_timestamp": "20250609_135423"}
+{"timestamp": "2025-06-09T17:54:23.506315", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/M2C2 2 Task_May 2, 2025_10.37.csv"}
+{"timestamp": "2025-06-09T17:54:23.531481", "level": "info", "message": "[L] Loaded qualtrics data at 20250609_135423", "session_timestamp": "20250609_135423"}
+{"timestamp": "2025-06-09T17:55:19.294647", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250609_135421"}
+{"timestamp": "2025-06-09T17:55:19.321381", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250609_135423"}
+{"timestamp": "2025-06-09T17:55:19.328007", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250609_135420"}
+{"timestamp": "2025-06-09T17:55:19.332397", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250609_135423"}
+{"timestamp": "2025-06-09T17:55:32.849831", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250609_135421"}
+{"timestamp": "2025-06-09T17:56:48.959583", "level": "info", "message": "[I] Distribution plot generated.", "session_timestamp": "20250609_135421"}
+{"timestamp": "2025-06-09T17:56:48.985204", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250609_135421"}
+{"timestamp": "2025-06-11T19:26:27.655408", "level": "info", "message": "Initializing data load", "source": "qualtrics", "path": "/Users/nur375/Documents/GitHub/datakit/data/qualtrics/M2C2 2 Task_May 2, 2025_10.37.csv"}
+{"timestamp": "2025-06-11T19:26:27.694790", "level": "info", "message": "[L] Loaded qualtrics data at 20250611_152627", "session_timestamp": "20250611_152627"}
+{"timestamp": "2025-06-11T19:26:34.333732", "level": "info", "message": "[A] Data assurance check passed.", "session_timestamp": "20250611_152627"}
+{"timestamp": "2025-06-11T19:26:41.512031", "level": "info", "message": "[S] Scoring completed.", "session_timestamp": "20250611_152627"}
+{"timestamp": "2025-06-11T19:26:46.266760", "level": "info", "message": "[S] Summarization by activity completed.", "session_timestamp": "20250611_152627"}
+{"timestamp": "2025-06-11T19:26:59.257777", "level": "info", "message": "[I] Distribution plot generated.", "session_timestamp": "20250611_152627"}
